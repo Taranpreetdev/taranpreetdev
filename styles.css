@@ -46,6 +46,27 @@ a{
 
 }
 
+.projects {
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.projects img {
+    border-radius: 10px;
+    border: 3px solid rgb(162, 0, 255);
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+
+.projects p {
+    font-size: 25px;
+    padding-left: 2px;
+}
+
+
+
 .spline{
     margin-bottom: 299px;   
     margin-top: -199px;
@@ -190,18 +211,21 @@ footer{
 .socials{
     display:flex;
     flex-direction:row;
-    gap:25px;
+    gap:20px;
     padding-right: 20px;
     align-items: center;
     }
 
 
-@media only screen and (min-width:970px) {
-    .square{
-        width:48%;
-        margin: 1%;
-        height:600px;
+@media only screen and (min-width:800px) {
+    body{
+        margin: 0px 15vw;
 
+    }
+
+    section.main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     
