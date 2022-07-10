@@ -57,6 +57,7 @@ a{
     border: 3px solid rgb(162, 0, 255);
     margin-top: 55px;
     margin-bottom: 10px;
+    width: 400px;
 }
 
 
@@ -226,6 +227,11 @@ footer{
     section.main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
     }
 
     
