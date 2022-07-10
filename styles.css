@@ -190,7 +190,7 @@ footer{
 .socials{
     display:flex;
     flex-direction:row;
-    gap:15px;
+    gap:25px;
     padding-right: 20px;
     align-items: center;
     }
