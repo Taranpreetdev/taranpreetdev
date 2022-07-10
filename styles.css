@@ -72,7 +72,7 @@ header{
 div.logo {
     display: flex;
     align-self: center;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .switch{
