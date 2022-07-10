@@ -48,7 +48,7 @@ a{
 
 .spline{
     margin-bottom: 299px;   
-    margin-top: -99px;
+    margin-top: -199px;
     margin-left: 99px;
 }
 
@@ -63,7 +63,7 @@ a{
 header{
     display:grid;
     grid-template-columns: 6fr 1fr 1fr;
-    gap: 30px;
+    
     align-content: center;
     margin-top: 20px;
     overflow-x: ;
@@ -72,7 +72,7 @@ header{
 div.logo {
     display: flex;
     align-self: center;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .switch{
@@ -190,8 +190,9 @@ footer{
 .socials{
     display:flex;
     flex-direction:row;
-    gap:20px;
+    gap:15px;
     padding-right: 20px;
+    align-items: center;
     }
 
 
