@@ -69,7 +69,7 @@ a{
 
 
 .spline{
-    margin-bottom: 299px;   
+      
     margin-top: -199px;
     margin-left: 99px;
 }
@@ -216,6 +216,7 @@ footer{
     padding-right: 20px;
     align-items: center;
     }
+    
 
 
 @media only screen and (min-width:800px) {
@@ -233,6 +234,8 @@ footer{
         grid-template-columns: 1fr 1fr;
         gap: 50px;
     }
+
+
 
     
 }
