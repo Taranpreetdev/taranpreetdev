@@ -5,15 +5,17 @@
 body{
     transition: 0.3s;
     margin:0;
-    padding:0;
+    padding:0px 25px;
     background-color: rgb(241, 238, 238);
     font-family: 'Poppins', sans-serif;
     color: rgb(57,57,57);
-    margin: 10px 0;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 35px;
     line-height: 70px;
     font-weight: 300;
 }
@@ -40,8 +42,7 @@ a{
 }
 
 .spline{
-    padding-left: 300px;
-    margin-top: -120px;    
+    margin-bottom: 299px;   
 }
 
 /* button/link */
@@ -53,9 +54,18 @@ a{
 
 
 header{
-    display:flex;
-    justify-content: flex-end;
-    padding:30px;
+    display:grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    gap: 30px;
+    align-content: center;
+    margin-top: 20px;
+    
+}
+
+div.logo {
+    display: flex;
+    align-self: center;
+    font-size: 25px;
 }
 
 .switch{
@@ -108,18 +118,8 @@ header{
 }
 
 .main{
-    height:80vh;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-}
-
-.main-text{
-    padding:30px;
-    grid-column: 1/6;
-}
-
-.spline{
-    grid-column: 6/12;
+    height:100vh;
+    
 }
 
 .square{
@@ -198,4 +198,6 @@ footer{
         height:600px;
 
     }
+
+    
 }
