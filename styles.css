@@ -89,7 +89,7 @@ header{
     
     align-content: center;
     margin-top: 20px;
-    overflow-x: ;
+    overflow: x 1px;
 }
 
 div.logo {
@@ -258,5 +258,8 @@ div.main-text a {
         z-index: 99;
         margin-top: -169px;
     }
+
+  
+         
     
 }
